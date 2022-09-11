@@ -1,3 +1,2 @@
 #!/bijjn/bash
 gcc -E $CFILE -o c
-Footer
