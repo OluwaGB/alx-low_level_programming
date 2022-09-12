@@ -1,4 +1,4 @@
-#include <stdio.h>
+include <stdio.h>
 
 /**
 
@@ -14,17 +14,15 @@ int main(void)
 
 {
 
-	char c = 'a';
+	int d = 48;
 
-	while (c <= 'z')
+	while (d < 58)
 
 	{
 
-		if (c != 'q' && c != 'e')
+		putchar(d);
 
-			putchar(c);
-
-		c++;
+		d++;
 
 	}
 
@@ -33,3 +31,5 @@ int main(void)
 	return (0);
 
 }
+
+Footer
