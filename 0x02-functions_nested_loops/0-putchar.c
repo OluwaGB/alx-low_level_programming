@@ -1,6 +1,15 @@
- #include <stdio.h>
-/* This program will  prints _putchar and return 0  */
-int main() { 
-printf("_putchar /n");
-    return 0;
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always success
+ */
+int main(void)
+{
+
+	printf("_putchar\n");
+
+	return (0);
 }
