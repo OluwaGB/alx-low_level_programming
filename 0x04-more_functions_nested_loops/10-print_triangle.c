@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * print_triangle - prints triangle using "#" character of a given size
