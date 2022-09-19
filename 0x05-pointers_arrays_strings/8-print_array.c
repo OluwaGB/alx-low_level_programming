@@ -12,12 +12,12 @@ void print_array(int *i, int *n)
 {
 	int nat ;
 
-	for ( nat = 0; inc < n; inc++)
+	for( nat = 0; inc < n; inc++)
 	{
-		if (nat != n - 1)
-			printf("%d,",i[nat]);
+		if(nat != n - 1)
+			printf("%d",i[nat]);
 		else
-			printf(" %d ", i[nat]);
+			printf("%d", i[nat]);
 	}
 	putchar(10);
 }
