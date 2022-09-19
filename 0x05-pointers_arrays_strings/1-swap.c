@@ -6,10 +6,8 @@
   */ 
   
  void swap_int(int *a, int *b) 
- { int a = 30;
-int b = 40;
-*a = &b;
-*b = &a;
-printf ("%d",*a);
-printf("%d",*b);
+ { 
+         int tmp = *a; 
+         *a = *b; 
+         *b = tmp; 
  }
