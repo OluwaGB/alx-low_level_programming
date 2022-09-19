@@ -15,7 +15,7 @@ void print_array(int *i, int *n)
 	for( nat = 0; inc < n; inc++)
 	{
 		if(nat != n - 1)
-			printf("%d",i[nat]);
+			printf("%d", i[nat]);
 		else
 			printf("%d", i[nat]);
 	}
