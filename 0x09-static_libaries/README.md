@@ -1,1 +1,1 @@
-C-static_libaries
+C static libaries
