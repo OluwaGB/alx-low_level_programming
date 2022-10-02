@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+ #include "main.h"
+=======
 #include "main.h"
+>>>>>>> 1059585388273e21623a35cc072c5e50b70fe317
 
 /**
  * _memcpy - copies memory area
